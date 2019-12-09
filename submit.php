@@ -6,7 +6,7 @@ $feedback = $_POST['feedback'];
 
 echo $name."<br>".$email."<br>".$feedback."<br>";
 
-$con = mysqli_connect("localhost", "local", "", "test");
+$con = mysqli_connect("localhost", "root", "youshallpass", "test");
 if($con) {
     echo "connected successfully. <br>";
     echo "please wait while we shamlessly submit your data into our highly insecure database <br>";
